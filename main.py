@@ -14,8 +14,9 @@ def get_config():
         "api_key": "980128990635aaa7c2595b668df87497",
         "app_id": "KOCVQI75M9",
         "referer": "https://www.helloasso.com/e/recherche?tab=associations",
-        "filters": 'place_city:"Pordic" AND place_department:"Côtes-d\'Armor"',
-        "hits_per_page": 3
+        "insideBoundingBox": "", # Hitbox des assoss sur la carte (exemple: "[[48.40270693939982,-3.148647261719873,48.73711218710261,-2.4949607382821455]]")
+        "filters": 'place_city:"Pordic" AND place_department:"Côtes-d\'Armor"',  # Pour tester a petite echelle
+        "hits_per_page": 3 # De 1 à 1000
     }
 
 def extract_contact_info(url):
