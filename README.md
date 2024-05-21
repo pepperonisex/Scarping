@@ -1,0 +1,1 @@
+Script Python pour extraire les adresses email et numéros de téléphone des associations listées sur HelloAsso, et les sauvegarder dans un fichier CSV. Il est possible de filtrer la liste des associations directement dans le script.
