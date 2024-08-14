@@ -16,7 +16,7 @@ def get_config():
         "app_id": "KOCVQI75M9",
         "referer": "https://www.helloasso.com/e/recherche?tab=associations",
         "insideBoundingBox": "", # Hitbox des assoss sur la carte (exemple: "[[48.40270693939982,-3.148647261719873,48.73711218710261,-2.4949607382821455]]")
-        "filters": 'place_city:"Pordic" AND place_department:"Côtes-d\'Armor"',  # Pour tester a petite echelle
+        "filters": 'place_city:"Saint-brieuc" AND place_department:"Côtes-d\'Armor"',  # Pour tester a petite echelle
         "hits_per_page": 3 # De 1 à 1000
     }
 
